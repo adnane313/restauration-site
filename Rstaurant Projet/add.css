@@ -1,0 +1,41 @@
+form{
+   background-color: #f5fcf4;
+}
+
+.container {
+  max-width: 1200px;
+  width: 60%;
+  margin: 0 auto;
+ 
+}
+
+h3{
+  font-family: verdana;
+  font-size: 30px;
+  color: #5b6359;
+}
+input,textarea{
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  background-color:#d6e5d8;
+   border: 1px solid lightgray;
+   font-family: verdana;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+label{
+     font-size: 1.2rem;
+      font-family: verdana;
+      margin: 10px;
+
+}
+
+input[type='submit']{
+ width: 60%;
+ font-size: 20px;
+  font-family: verdana;
+  background-color:#26643b;
+  color: white;
+
+}

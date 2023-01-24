@@ -1,0 +1,63 @@
+body{
+   background-image: url(./images/vues.png);
+
+}
+
+form {
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10%;
+  background-color: white;
+  text-align: center;
+  
+}
+
+
+
+form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: verdana;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: verdana;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+
+  outline: none;
+}
+form input[type="submit"] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45A049;
+}
+form input, label{
+  box-sizing: border-box;
+}
